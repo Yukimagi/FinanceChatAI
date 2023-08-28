@@ -1,6 +1,6 @@
 ﻿namespace FinanceChatAI
 {
-    partial class Forecast1
+    partial class Ask1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             SuspendLayout();
             // 
-            // Forecast1
+            // Ask1
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1082, 410);
-            Name = "Forecast1";
-            Text = "Forecast1";
+            Name = "Ask1";
+            Text = "Ask1";
             ResumeLayout(false);
         }
 

@@ -31,6 +31,7 @@
             panel1 = new Panel();
             btn_Research = new Button();
             btn_Forecast = new Button();
+            btn_Ask = new Button();
             SuspendLayout();
             // 
             // panel1
@@ -60,11 +61,23 @@
             btn_Forecast.UseVisualStyleBackColor = true;
             btn_Forecast.Click += btn_Forecast_Click;
             // 
+            // btn_Ask
+            // 
+            btn_Ask.Location = new Point(12, 265);
+            btn_Ask.Name = "btn_Ask";
+            btn_Ask.Size = new Size(140, 62);
+            btn_Ask.TabIndex = 4;
+            btn_Ask.Text = "Ask";
+            btn_Ask.UseVisualStyleBackColor = true;
+            btn_Ask.Click += btn_Ask_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1253, 542);
+            Controls.Add(btn_Ask);
             Controls.Add(btn_Forecast);
             Controls.Add(btn_Research);
             Controls.Add(panel1);
@@ -77,5 +90,6 @@
         private Panel panel1;
         private Button btn_Research;
         private Button btn_Forecast;
+        private Button btn_Ask;
     }
 }

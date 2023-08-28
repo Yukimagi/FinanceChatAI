@@ -44,6 +44,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1082, 410);
             Controls.Add(textBox1);
             Name = "Research1";

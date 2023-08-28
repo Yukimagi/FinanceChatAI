@@ -43,5 +43,10 @@ namespace FinanceChatAI
         {
             openChildForm(new Forecast1());
         }
+
+        private void btn_Ask_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Ask1());
+        }
     }
 }
