@@ -28,32 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            panel1 = new Panel();
+            btn_Research = new Button();
+            btn_Forecast = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // panel1
             // 
-            textBox1.Location = new Point(54, 12);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(683, 426);
-            textBox1.TabIndex = 0;
+            panel1.Location = new Point(160, 86);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1100, 457);
+            panel1.TabIndex = 1;
+            // 
+            // btn_Research
+            // 
+            btn_Research.Location = new Point(14, 97);
+            btn_Research.Name = "btn_Research";
+            btn_Research.Size = new Size(140, 62);
+            btn_Research.TabIndex = 2;
+            btn_Research.Text = "Research";
+            btn_Research.UseVisualStyleBackColor = true;
+            btn_Research.Click += btn_Research_Click;
+            // 
+            // btn_Forecast
+            // 
+            btn_Forecast.Location = new Point(14, 183);
+            btn_Forecast.Name = "btn_Forecast";
+            btn_Forecast.Size = new Size(140, 62);
+            btn_Forecast.TabIndex = 3;
+            btn_Forecast.Text = "Forecast";
+            btn_Forecast.UseVisualStyleBackColor = true;
+            btn_Forecast.Click += btn_Forecast_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
+            ClientSize = new Size(1253, 542);
+            Controls.Add(btn_Forecast);
+            Controls.Add(btn_Research);
+            Controls.Add(panel1);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private TextBox textBox1;
+        private Panel panel1;
+        private Button btn_Research;
+        private Button btn_Forecast;
     }
 }
