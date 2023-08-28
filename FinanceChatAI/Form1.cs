@@ -17,7 +17,7 @@ namespace FinanceChatAI
         public Form1()
         {
             InitializeComponent();
-            InitializeAsync(); // ?用异步初始化方法
+            InitializeAsync(); // 用異步初始化方法
                                // 寫入 CSV 標題行
 
         }
