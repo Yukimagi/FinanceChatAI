@@ -235,6 +235,7 @@ namespace FinanceChatAI
 
         private void btn_Conclusion_Click(object sender, EventArgs e)
         {
+            //此處的py檔有修改(應該會放在.exe同層)，如果您的資料夾沒有我提供的py檔，請向使用者索取
             string stockSymbol = Interaction.InputBox("請輸入股票代號(ex:2330)", "確定", "2330", 50, 50);//50,50視窗座標位置
             string pythonScriptPath = "Conclusion.py";
             string pythonInterpreter = "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe";
