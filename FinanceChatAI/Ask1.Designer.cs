@@ -35,7 +35,7 @@
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1082, 410);
+            ClientSize = new Size(1403, 390);
             Name = "Ask1";
             Text = "Ask1";
             ResumeLayout(false);

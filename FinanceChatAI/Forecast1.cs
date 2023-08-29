@@ -145,7 +145,7 @@ namespace FinanceChatAI
                     }
 
                     record0.Add(record);
-                    
+
                 }
             }
 
@@ -161,7 +161,7 @@ namespace FinanceChatAI
                     }
                 }
             }
-        
+
             string cookieFilePath = "bing_cookies_myaccount.json";
             var client = new BingChatClient(new BingChatClientOptions
             {

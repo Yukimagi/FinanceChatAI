@@ -48,7 +48,7 @@
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(756, 395);
+            textBox1.Size = new Size(1068, 395);
             textBox1.TabIndex = 0;
             // 
             // btn_NewsCatch
@@ -160,7 +160,7 @@
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1082, 410);
+            ClientSize = new Size(1403, 390);
             Controls.Add(btn_Conclusion);
             Controls.Add(label6);
             Controls.Add(btn_BingChat);

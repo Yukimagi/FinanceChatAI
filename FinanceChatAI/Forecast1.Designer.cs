@@ -73,11 +73,11 @@
             // 
             // Forecast_textBox1
             // 
-            Forecast_textBox1.Location = new Point(410, 54);
+            Forecast_textBox1.Location = new Point(410, -4);
             Forecast_textBox1.Multiline = true;
             Forecast_textBox1.Name = "Forecast_textBox1";
             Forecast_textBox1.ScrollBars = ScrollBars.Both;
-            Forecast_textBox1.Size = new Size(651, 344);
+            Forecast_textBox1.Size = new Size(981, 392);
             Forecast_textBox1.TabIndex = 3;
             // 
             // Forecast_label3
@@ -158,7 +158,7 @@
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1082, 410);
+            ClientSize = new Size(1403, 390);
             Controls.Add(btn_check);
             Controls.Add(Forecast_label8);
             Controls.Add(Forecast_label7_point);
