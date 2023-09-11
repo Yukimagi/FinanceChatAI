@@ -68,7 +68,7 @@
             // btn_Ask
             // 
             btn_Ask.BackColor = Color.FromArgb(255, 255, 128);
-            btn_Ask.Location = new Point(48, 362);
+            btn_Ask.Location = new Point(48, 384);
             btn_Ask.Name = "btn_Ask";
             btn_Ask.Size = new Size(140, 62);
             btn_Ask.TabIndex = 4;

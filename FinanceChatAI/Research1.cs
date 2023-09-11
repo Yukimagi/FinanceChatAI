@@ -153,7 +153,7 @@ namespace FinanceChatAI
             {
                 keyword2 = Interaction.InputBox("輸入查詢的股票的台灣代稱(ex: 台積電)", "確定", "台積電", 50, 50);
                 stock = Interaction.InputBox("輸入股票代碼(ex: 2330)", "確定", "2330", 50, 50);
-                DialogResult result=MessageBox.Show("請問是要查詢2023年"+month+"月的嗎\n如果是請按是\n如果是2022年請按否?", "注意", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                DialogResult result=MessageBox.Show("請問是要查詢2023年"+month+"月的嗎\n如果是請按是\n如果是2022年請按否", "注意", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if(result== DialogResult.Yes)
                 {
                     month = "23_" + month;
@@ -192,16 +192,16 @@ namespace FinanceChatAI
                 if (!Directory.Exists(stock+"ans"))
                 {
                     Directory.CreateDirectory(stock+"ans");
-                    Console.WriteLine("資料夾建立成功！");
+                    textBox1.Text=("資料夾建立成功！"+ Environment.NewLine);
                 }
                 else
                 {
-                    Console.WriteLine("資料夾已存在。");
+                    textBox1.Text = ("資料夾已存在。" + Environment.NewLine);
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"資料夾建立時發生錯誤：{ex.Message}");
+                textBox1.Text = ($"資料夾建立時發生錯誤：{ex.Message}" + Environment.NewLine);
             }
 
             // 寫入 CSV 標題行
@@ -237,7 +237,7 @@ namespace FinanceChatAI
                 // 處理字典列表中的資料
                 foreach (var record in records)
                 {
-                    Console.WriteLine($"Date: {record["date"]}, Title: {record["title"]}");
+                    textBox1.AppendText($"Date: {record["date"]}, Title: {record["title"]}\n" + Environment.NewLine);
                 }
             }
             string cookieFilePath = "bing_cookies_myaccount.json";
@@ -277,7 +277,7 @@ namespace FinanceChatAI
 
                 answer[i] = await client.AskAsync(secondMessage);
 
-                Console.WriteLine($"answer: {answer[i]}");
+                textBox1.AppendText($"answer: {answer[i]}\n" + Environment.NewLine);
 
                 string pattern = @"(#unknown|#no|#yes)";
 
@@ -313,6 +313,7 @@ namespace FinanceChatAI
                     i++;
                 }
             }
+            MessageBox.Show("Bing Chat回答完成!" + Environment.NewLine);
         }
 
         private void btn_Conclusion_Click(object sender, EventArgs e)
