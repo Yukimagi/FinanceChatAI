@@ -277,7 +277,7 @@ namespace FinanceChatAI
 
                 answer[i] = await client.AskAsync(secondMessage);
 
-                textBox1.AppendText($"answer: {answer[i]}\n" + Environment.NewLine);
+                textBox1.AppendText($"answer: {answer[i]}\n" + Environment.NewLine + Environment.NewLine);
 
                 string pattern = @"(#unknown|#no|#yes)";
 
