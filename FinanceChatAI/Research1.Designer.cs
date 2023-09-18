@@ -56,7 +56,7 @@
             btn_NewsCatch.BackgroundImage = (Image)resources.GetObject("btn_NewsCatch.BackgroundImage");
             btn_NewsCatch.BackgroundImageLayout = ImageLayout.Center;
             btn_NewsCatch.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_NewsCatch.Location = new Point(253, 8);
+            btn_NewsCatch.Location = new Point(58, 12);
             btn_NewsCatch.Name = "btn_NewsCatch";
             btn_NewsCatch.Size = new Size(134, 132);
             btn_NewsCatch.TabIndex = 1;
@@ -90,7 +90,7 @@
             btn_NewsFilter.BackgroundImage = (Image)resources.GetObject("btn_NewsFilter.BackgroundImage");
             btn_NewsFilter.BackgroundImageLayout = ImageLayout.Center;
             btn_NewsFilter.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_NewsFilter.Location = new Point(62, 8);
+            btn_NewsFilter.Location = new Point(253, 12);
             btn_NewsFilter.Name = "btn_NewsFilter";
             btn_NewsFilter.Size = new Size(134, 132);
             btn_NewsFilter.TabIndex = 5;
