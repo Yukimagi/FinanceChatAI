@@ -35,8 +35,11 @@
             btn_Forecast = new Button();
             btn_Ask = new Button();
             pictureBox1 = new PictureBox();
+            title_label1 = new Label();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -99,6 +102,27 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
+            // title_label1
+            // 
+            title_label1.AutoSize = true;
+            title_label1.Font = new Font("Microsoft JhengHei UI", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point);
+            title_label1.ForeColor = Color.White;
+            title_label1.Image = (Image)resources.GetObject("title_label1.Image");
+            title_label1.Location = new Point(1445, 67);
+            title_label1.Name = "title_label1";
+            title_label1.Size = new Size(107, 56);
+            title_label1.TabIndex = 6;
+            title_label1.Text = "title";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(48, 30);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(183, 121);
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
@@ -106,6 +130,8 @@
             BackColor = Color.White;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1731, 698);
+            Controls.Add(pictureBox2);
+            Controls.Add(title_label1);
             Controls.Add(pictureBox1);
             Controls.Add(btn_Ask);
             Controls.Add(btn_Forecast);
@@ -116,7 +142,9 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -126,5 +154,7 @@
         private Button btn_Ask;
         private Label welcome_label2;
         private PictureBox pictureBox1;
+        private Label title_label1;
+        private PictureBox pictureBox2;
     }
 }

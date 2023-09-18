@@ -24,6 +24,16 @@ namespace FinanceChatAI
         public Forecast1()
         {
             InitializeComponent();
+            button1.Visible = false;
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = true;
+            Forecast_label2.Visible = true;
+            Forecast_label9.Visible = true;
+            btn_check.Visible = true;
+            btn_check.Enabled = true;
+            Forecast_comboBox1.Visible = true;
+            Forecast_comboBox1.Enabled = true;
+            pictureBox3.Visible = false;
             Forecast_label3.Visible = false;
             Forecast_label4.Visible = false;
             Forecast_label5.Visible = false;
@@ -87,7 +97,9 @@ namespace FinanceChatAI
             {
                 daysToKeep = Forecast_comboBox1.SelectedIndex + 1;
                 //Forecast_textBox1.Text = daysToKeep.ToString();
+                pictureBox3.Visible = true;
                 Forecast_label4.Visible = true;
+
                 DialogResult result2 = MessageBox.Show("請問是否要開始爬資料\n如果已有資料(預設是有的)請按否\n不要重跑!\n請問是否繼續?", "注意", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (result2 == DialogResult.Yes)
                 {
@@ -120,6 +132,18 @@ namespace FinanceChatAI
 
         private async void InitializeAsync()
         {
+            pictureBox2.Visible = false;
+            //pictureBox1.Visible = false;
+            Forecast_label2.Visible = false;
+            Forecast_label9.Visible = false;
+            btn_check.Visible = false;
+            btn_check.Enabled = false;
+            Forecast_comboBox1.Visible = false;
+            Forecast_comboBox1.Enabled = false;
+
+            pictureBox3.Visible = false;
+            Forecast_label4.Visible = false;
+
             Forecast_label3.Visible = true;
             // 指定 CSV 檔案路徑
             string news_path = "forecast/news_now_filter.csv";
@@ -284,6 +308,45 @@ namespace FinanceChatAI
                     Forecast_label7_point.Visible = true;
                     Forecast_label8.Visible = true;
                 }
+            }
+            button1.Visible=true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            pictureBox2.Visible = true;
+            pictureBox1.Visible = true;
+            Forecast_label2.Visible = true;
+            Forecast_label9.Visible = true;
+            btn_check.Visible = true;
+            btn_check.Enabled = true;
+            Forecast_comboBox1.Visible = true;
+            Forecast_comboBox1.Enabled = true;
+            pictureBox3.Visible = false;
+            Forecast_label3.Visible = false;
+            Forecast_label4.Visible = false;
+            Forecast_label5.Visible = false;
+            Forecast_label6.Visible = false;
+            Forecast_label7_point.Visible = false;
+            Forecast_label8.Visible = false;
+            MessageBox.Show("請記得貼上您的www.bing.com的cookie path於bing_cookies_myaccount.json");
+            try
+            {
+                // 檢查文件夾是否已存在，如果不存在則創建它
+                if (!Directory.Exists("forecast"))
+                {
+                    Directory.CreateDirectory("forecast");
+                    Console.WriteLine("資料夾建立成功！");
+                }
+                else
+                {
+                    Console.WriteLine("資料夾已存在。");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"資料夾建立時發生錯誤：{ex.Message}");
             }
         }
     }

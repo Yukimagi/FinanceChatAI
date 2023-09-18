@@ -17,6 +17,7 @@ namespace FinanceChatAI
         public Form1()
         {
             InitializeComponent();
+            title_label1.Visible = false;
         }
         //ªí³æ¤Á´«
         //https://lillylovecode.medium.com/c-%E5%AD%90%E6%AF%8D%E8%A1%A8%E5%96%AE-windows-form-app-e38e1610fba6
@@ -36,20 +37,32 @@ namespace FinanceChatAI
 
         private void btn_Research_Click(object sender, EventArgs e)
         {
+
+            title_label1.Visible = false;
             welcome_label2.Visible = false;
             openChildForm(new Research1());
+            title_label1.Text = "Research";
+            title_label1.Visible = true;
         }
 
         private void btn_Forecast_Click(object sender, EventArgs e)
         {
+
+            title_label1.Visible = false;
             welcome_label2.Visible = false;
             openChildForm(new Forecast1());
+            title_label1.Text = "Forecast";
+            title_label1.Visible = true;
         }
 
         private void btn_Ask_Click(object sender, EventArgs e)
         {
+
+            title_label1.Visible = false;
             welcome_label2.Visible = false;
             openChildForm(new Ask1());
+            title_label1.Text = "Ask";
+            title_label1.Visible = true;
         }
     }
 }

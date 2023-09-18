@@ -26,10 +26,17 @@ namespace FinanceChatAI
             label4.Visible = false;
             label5.Visible = false;
             label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            pictureBox1_ask.Visible = false;
             re_button.Enabled = false;
             re_button.Visible = false;
             start_button.Enabled = true;
             start_button.Visible = true;
+            ans_textBox.Visible = false;
+            ans_textBox.Text = "";
+            newsTitles.Clear();
+            title_listBox.Items.Clear();
             MessageBox.Show("請記得貼上您的www.bing.com的cookie path於bing_cookies_myaccount.json");
             try
             {
@@ -85,6 +92,20 @@ namespace FinanceChatAI
 
         private async void InitializeAsync()
         {
+            ans_textBox.Visible = true;
+            start_button.Enabled = false;
+            start_button.Visible = false;
+            label1.Visible = false;
+            dateTimePicker1.Visible = false;
+            label2.Visible = false;
+            add_button.Visible = false;
+            title_textBox.Visible = false;
+            label3.Visible = false;
+            start_button.Visible = false;
+            title_listBox.Visible = false;
+            label7.Visible = true;
+            pictureBox1_ask.Visible = true;
+
             // 指定 CSV 檔案路徑
             string ans_path = "ask/ans_ask.csv";
 
@@ -167,9 +188,7 @@ namespace FinanceChatAI
         }
         void conclusion()
         {
-            label4.Visible = true;
-            label5.Visible = true;
-            label6.Visible = true;
+
             //此處的py檔有修改(應該會放在.exe同層)，如果您的資料夾沒有我提供的py檔，請向使用者索取
             string stockSymbol = Interaction.InputBox("請輸入股票代號(ex:2330)", "確定", "2330", 50, 50);//50,50視窗座標位置
             string pythonScriptPath = "Conclusion_ask.py";
@@ -181,7 +200,11 @@ namespace FinanceChatAI
             psi.UseShellExecute = false;
             psi.RedirectStandardOutput = true; // 捕獲輸出
             psi.CreateNoWindow = true;
-
+            label7.Visible = false;
+            pictureBox1_ask.Visible = false;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = true;
             using (Process process = new Process())
             {
                 process.StartInfo = psi;
@@ -197,20 +220,57 @@ namespace FinanceChatAI
                 if (index != -1)
                 {
                     string averageValue = output.Substring(index + averageConclusionText.Length);
-                    label6.Text = (averageValue + "%");
+                    label6.Text = (averageValue);
+                    label8.Visible = true;
                 }
             }
+            re_button.Visible = true;
+            re_button.Enabled = true;
         }
 
         private void re_button_Click(object sender, EventArgs e)
         {
+
+            start_button.Enabled = true;
+            start_button.Visible = true;
+            label1.Visible = true;
+            dateTimePicker1.Visible = true;
+            label2.Visible = true;
+            add_button.Visible = true;
+            title_textBox.Visible = true;
+            label3.Visible = true;
+            start_button.Visible = true;
+            title_listBox.Visible = true;
+
             label4.Visible = false;
             label5.Visible = false;
             label6.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            pictureBox1_ask.Visible = false;
             re_button.Enabled = false;
             re_button.Visible = false;
             start_button.Enabled = true;
             start_button.Visible = true;
+            ans_textBox.Visible = false;
+            MessageBox.Show("請記得貼上您的www.bing.com的cookie path於bing_cookies_myaccount.json");
+            try
+            {
+                // 檢查文件夾是否已存在，如果不存在則創建它
+                if (!Directory.Exists("ask"))
+                {
+                    Directory.CreateDirectory("ask");
+                    Console.WriteLine("資料夾建立成功！");
+                }
+                else
+                {
+                    Console.WriteLine("資料夾已存在。");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"資料夾建立時發生錯誤：{ex.Message}");
+            }
             ans_textBox.Text = "";
             newsTitles.Clear();
             title_listBox.Items.Clear();
