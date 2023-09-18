@@ -44,11 +44,11 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(673, 12);
+            textBox1.Location = new Point(602, 8);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ScrollBars = ScrollBars.Both;
-            textBox1.Size = new Size(718, 415);
+            textBox1.Size = new Size(734, 332);
             textBox1.TabIndex = 0;
             // 
             // btn_NewsCatch
@@ -56,9 +56,9 @@
             btn_NewsCatch.BackgroundImage = (Image)resources.GetObject("btn_NewsCatch.BackgroundImage");
             btn_NewsCatch.BackgroundImageLayout = ImageLayout.Center;
             btn_NewsCatch.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_NewsCatch.Location = new Point(58, 12);
+            btn_NewsCatch.Location = new Point(253, 8);
             btn_NewsCatch.Name = "btn_NewsCatch";
-            btn_NewsCatch.Size = new Size(123, 128);
+            btn_NewsCatch.Size = new Size(134, 132);
             btn_NewsCatch.TabIndex = 1;
             btn_NewsCatch.Text = "News Catch";
             btn_NewsCatch.TextAlign = ContentAlignment.BottomCenter;
@@ -90,7 +90,7 @@
             btn_NewsFilter.BackgroundImage = (Image)resources.GetObject("btn_NewsFilter.BackgroundImage");
             btn_NewsFilter.BackgroundImageLayout = ImageLayout.Center;
             btn_NewsFilter.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_NewsFilter.Location = new Point(253, 8);
+            btn_NewsFilter.Location = new Point(62, 8);
             btn_NewsFilter.Name = "btn_NewsFilter";
             btn_NewsFilter.Size = new Size(134, 132);
             btn_NewsFilter.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(411, 12);
+            label4.Location = new Point(19, 168);
             label4.Name = "label4";
             label4.Size = new Size(33, 29);
             label4.TabIndex = 6;
@@ -114,9 +114,9 @@
             btn_IntradayReturn.BackgroundImage = (Image)resources.GetObject("btn_IntradayReturn.BackgroundImage");
             btn_IntradayReturn.BackgroundImageLayout = ImageLayout.Center;
             btn_IntradayReturn.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_IntradayReturn.Location = new Point(450, 8);
+            btn_IntradayReturn.Location = new Point(62, 168);
             btn_IntradayReturn.Name = "btn_IntradayReturn";
-            btn_IntradayReturn.Size = new Size(138, 132);
+            btn_IntradayReturn.Size = new Size(134, 141);
             btn_IntradayReturn.TabIndex = 7;
             btn_IntradayReturn.Text = "Intraday Return";
             btn_IntradayReturn.TextAlign = ContentAlignment.BottomCenter;
@@ -127,7 +127,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(19, 181);
+            label5.Location = new Point(214, 168);
             label5.Name = "label5";
             label5.Size = new Size(33, 29);
             label5.TabIndex = 8;
@@ -138,9 +138,9 @@
             btn_BingChat.BackgroundImage = (Image)resources.GetObject("btn_BingChat.BackgroundImage");
             btn_BingChat.BackgroundImageLayout = ImageLayout.Center;
             btn_BingChat.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_BingChat.Location = new Point(58, 168);
+            btn_BingChat.Location = new Point(253, 168);
             btn_BingChat.Name = "btn_BingChat";
-            btn_BingChat.Size = new Size(123, 141);
+            btn_BingChat.Size = new Size(134, 141);
             btn_BingChat.TabIndex = 9;
             btn_BingChat.Text = "Bing Chat";
             btn_BingChat.TextAlign = ContentAlignment.BottomCenter;
@@ -151,7 +151,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(200, 276);
+            label6.Location = new Point(405, 80);
             label6.Name = "label6";
             label6.Size = new Size(33, 29);
             label6.TabIndex = 10;
@@ -159,12 +159,15 @@
             // 
             // btn_Conclusion
             // 
-            btn_Conclusion.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_Conclusion.Location = new Point(253, 271);
+            btn_Conclusion.BackgroundImage = (Image)resources.GetObject("btn_Conclusion.BackgroundImage");
+            btn_Conclusion.BackgroundImageLayout = ImageLayout.Center;
+            btn_Conclusion.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_Conclusion.Location = new Point(444, 80);
             btn_Conclusion.Name = "btn_Conclusion";
-            btn_Conclusion.Size = new Size(242, 38);
+            btn_Conclusion.Size = new Size(134, 141);
             btn_Conclusion.TabIndex = 11;
             btn_Conclusion.Text = "Conclusion";
+            btn_Conclusion.TextAlign = ContentAlignment.BottomCenter;
             btn_Conclusion.UseVisualStyleBackColor = true;
             btn_Conclusion.Click += btn_Conclusion_Click;
             // 
