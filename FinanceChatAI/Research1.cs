@@ -59,15 +59,15 @@ namespace FinanceChatAI
 
         private void btn_NewsFilter_Click(object sender, EventArgs e)
         {
-                // 獲取輸入用戶的關鍵字和股票代號
-                string keyword = Interaction.InputBox("輸入查詢的股票的台灣代稱(ex: 台積電)", "確定", "台積電", 50, 50);
-                string stockCode = Interaction.InputBox("輸入股票代碼(ex: 2330)", "確定", "2330", 50, 50);
+            // 獲取輸入用戶的關鍵字和股票代號
+            string keyword = Interaction.InputBox("輸入查詢的股票的台灣代稱(ex: 台積電)", "確定", "台積電", 50, 50);
+            string stockCode = Interaction.InputBox("輸入股票代碼(ex: 2330)", "確定", "2330", 50, 50);
 
 
-                string folderPath = keyword+"過濾新聞"; // 指定要创建的文件夹路径
+            string folderPath = keyword + "過濾新聞"; // 指定要创建的文件夹路径
 
-                try
-                {
+            try
+            {
                 // 檢查文件夾是否已存在，如果不存在則創建它
                 if (!Directory.Exists(folderPath))
                 {
@@ -78,28 +78,28 @@ namespace FinanceChatAI
                 {
                     Console.WriteLine("資料夾已存在。");
                 }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"資料夾建立時發生錯誤：{ex.Message}");
-                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"資料夾建立時發生錯誤：{ex.Message}");
+            }
 
-                string pythonScriptPath = "news_filter.py";
-                string pythonInterpreter = "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe";
+            string pythonScriptPath = "news_filter.py";
+            string pythonInterpreter = "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe";
 
-                ProcessStartInfo psi = new ProcessStartInfo();
-                psi.FileName = pythonInterpreter;
-                psi.Arguments = $"{pythonScriptPath} \"{keyword}\" \"{stockCode}\""; // 将关键字和股票代号作为参数传递
-                psi.UseShellExecute = false;
-                psi.CreateNoWindow = true;
+            ProcessStartInfo psi = new ProcessStartInfo();
+            psi.FileName = pythonInterpreter;
+            psi.Arguments = $"{pythonScriptPath} \"{keyword}\" \"{stockCode}\""; // 将关键字和股票代号作为参数传递
+            psi.UseShellExecute = false;
+            psi.CreateNoWindow = true;
 
-                using (Process process = new Process())
-                {
-                    process.StartInfo = psi;
-                    process.Start();
-                    process.WaitForExit();
-                }
-                MessageBox.Show("新聞過濾成功");
+            using (Process process = new Process())
+            {
+                process.StartInfo = psi;
+                process.Start();
+                process.WaitForExit();
+            }
+            MessageBox.Show("新聞過濾成功");
 
         }
 
@@ -144,8 +144,8 @@ namespace FinanceChatAI
             MessageBox.Show("Intraday return成功");
         }
         string month = "1";
-        string stock="2330";
-        string keyword2="台積電";
+        string stock = "2330";
+        string keyword2 = "台積電";
 
         void check()
         {
@@ -153,8 +153,8 @@ namespace FinanceChatAI
             {
                 keyword2 = Interaction.InputBox("輸入查詢的股票的台灣代稱(ex: 台積電)", "確定", "台積電", 50, 50);
                 stock = Interaction.InputBox("輸入股票代碼(ex: 2330)", "確定", "2330", 50, 50);
-                DialogResult result=MessageBox.Show("請問是要查詢2023年"+month+"月的嗎\n如果是請按是\n如果是2022年請按否", "注意", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if(result== DialogResult.Yes)
+                DialogResult result = MessageBox.Show("請問是要查詢2023年" + month + "月的嗎\n如果是請按是\n如果是2022年請按否", "注意", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (result == DialogResult.Yes)
                 {
                     month = "23_" + month;
                 }
@@ -189,10 +189,10 @@ namespace FinanceChatAI
             try
             {
                 // 檢查文件夾是否已存在，如果不存在則創建它
-                if (!Directory.Exists(stock+"ans"))
+                if (!Directory.Exists(stock + "ans"))
                 {
-                    Directory.CreateDirectory(stock+"ans");
-                    textBox1.Text=("資料夾建立成功！"+ Environment.NewLine);
+                    Directory.CreateDirectory(stock + "ans");
+                    textBox1.Text = ("資料夾建立成功！" + Environment.NewLine);
                 }
                 else
                 {
@@ -205,7 +205,7 @@ namespace FinanceChatAI
             }
 
             // 寫入 CSV 標題行
-            using (StreamWriter writer = new StreamWriter(stock + "ans" + "/" + stock+"ans_"+month+".csv", false, Encoding.UTF8)) // 使用 UTF-8 編碼
+            using (StreamWriter writer = new StreamWriter(stock + "ans" + "/" + stock + "ans_" + month + ".csv", false, Encoding.UTF8)) // 使用 UTF-8 編碼
             {
                 writer.WriteLine("date,title, Y/N");
             }
@@ -215,7 +215,7 @@ namespace FinanceChatAI
             int num = 0;
             var records = new List<Dictionary<string, string>>();
             // 讀取 2330_2022.csv(or每個月) 檔案
-            using (var reader = new StreamReader(keyword2+"過濾新聞" + "/" + stock + "_" + month + ".csv"))
+            using (var reader = new StreamReader(keyword2 + "過濾新聞" + "/" + stock + "_" + month + ".csv"))
             using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)))
             {
                 csv.Read(); // 讀取第一行作為欄位標題
@@ -298,7 +298,7 @@ namespace FinanceChatAI
 
             // Create an instance of StreamWriter to write text to a file.
             // The using statement also closes the StreamWriter.
-            using (StreamWriter sw = new StreamWriter(stock + "ans" + "/" +"output_"+ stock + "ans_" + month + ".TXT"))   //小寫TXT     
+            using (StreamWriter sw = new StreamWriter(stock + "ans" + "/" + "output_" + stock + "ans_" + month + ".TXT"))   //小寫TXT     
             {
                 i = 0;
                 foreach (var record in records)

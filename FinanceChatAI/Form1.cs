@@ -36,16 +36,19 @@ namespace FinanceChatAI
 
         private void btn_Research_Click(object sender, EventArgs e)
         {
+            welcome_label2.Visible = false;
             openChildForm(new Research1());
         }
 
         private void btn_Forecast_Click(object sender, EventArgs e)
         {
+            welcome_label2.Visible = false;
             openChildForm(new Forecast1());
         }
 
         private void btn_Ask_Click(object sender, EventArgs e)
         {
+            welcome_label2.Visible = false;
             openChildForm(new Ask1());
         }
     }
