@@ -84,8 +84,7 @@ namespace FinanceChatAI
                 InitializeAsync(); // 用異步初始化方法
                 start_button.Enabled = false;
                 start_button.Visible = false;
-                re_button.Enabled = true;
-                re_button.Visible = true;
+               
             }
         }
 
