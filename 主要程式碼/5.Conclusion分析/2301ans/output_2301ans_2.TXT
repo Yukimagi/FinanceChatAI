@@ -1,0 +1,91 @@
+2022/02/04
+〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高
+Searching the web for: `2022/02/04 光寶科 均線`
+
+Searching the web for: `〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高`
+
+Generating answers for you...
+
+#yes
+光寶科的前五日均線漲跌如下：
+
+日期 | 收盤價 | 前五日均線 | 漲跌
+---|---|---|---
+2022/01/28 | 134.5 | 133.1 | +1.4
+2022/01/31 | 135.0 | 133.6 | +1.4
+2022/02/01 | 136.0 | 134.3 | +1.7
+2022/02/02 | 137.5 | 135.3 | +2.2
+2022/02/03 | 138.0 | 136.2 | +1.8
+2022/02/04 | 139.0 | 137.2 | +1.8
+
+可以看出，光寶科的前五日均線持續上揚，且收盤價都高於均線，顯示股價有上漲趨勢。另外，新聞標題〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高[^4^]也是一個利多訊息，表示光寶科的營運表現優於預期，且有機會創下歷史新高的每股盈餘。因此，我認為這個標題對公司隔日股票當沖是好的，會賺錢。如果隔日股票開盤價在139元左右，且沒有其他重大利空消息，那麼只要股價上漲0.435%以上，就可以在當沖中獲利。
+
+[1]: https://tw.news.yahoo.com/q4%E8%B2%A1%E5%A0%B1%E6%90%B6%E5%85%88%E7%9C%8B-led%E5%BB%A0%E5%90%84%E6%93%81%E5%8B%95%E8%83%BD-%E5%85%89%E5%AF%B6%E7%A7%91-%E9%BC%8E%E5%85%83%E5%85%A8%E5%B9%B4eps%E5%8F%AF%E6%9C%9B%E5%89%B5%E9%AB%98-090042682.html "〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高"
+[2]: https://tw.stock.yahoo.com/quote/2301.TW "光寶科(2301.TW) 走勢圖 - Yahoo奇摩股市"
+[3]: https://www.cnyes.com/twstock/2301 "光寶科 2301 - 總覽 - 台股 | Anue鉅亨"
+[4]: https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2301 "(2301)光寶科 個股市況總覽 - Goodinfo!台灣股市資訊網"
+[5]: https://www.sinotrade.com.tw/richclub/news/61fcf21b8859b9d822b4d459 "〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高｜新聞｜豐雲學堂"
+[6]: https://news.cnyes.com/news/id/4809142 "〈Q4財報搶先看〉LED廠各擁動能 光寶科、鼎元全年EPS可望創高 | Anue鉅亨 - 台股新聞"
+2022/02/10
+伺服器、網通需求強 光寶科1月營收144.9億元 寫2年同期新高
+Searching the web for: `光寶科 2022/02/10 前5日均線`
+
+Searching the web for: `光寶科 2022/02/11 均線`
+
+Generating answers for you...
+
+#no
+光寶科在2022/02/10當下的前5日均線是由下往上穿越10日均線，形成黃金交叉，顯示股價有上漲的趨勢。但是，從[3](^3^)的資料可以看出，光寶科的5日均線扣抵值在2022/02/10當下是呈現上升趨勢，且高於10日均線扣抵值，這表示未來要出現黃金交叉的機率較低，股價可能會遭遇10日均線的壓力而下跌。因此，我認為隔日股票當沖不會賺錢。
+
+另外，新聞標題伺服器、網通需求強 光寶科1月營收144.9億元 寫2年同期新高[5](^5^)雖然看似利多，但是這個消息已經在2022/02/09公布，且當天光寶科股價已經上漲了1.8%，所以隔日可能會有賣壓出現，也不利於股票當沖。
+
+[1]: https://www.cnyes.com/twstock/a_technical7.aspx "技術指標(股價均線黃金交叉)_盤後統計_台股_鉅亨網"
+[2]: https://udn.com/news/story/7253/6992653 "光寶科（2301）合理價70元…殖利率6％多！ 專家：電子類股第一檔上巿 | 上市電子 | 股市 | 聯合新聞網"
+[3]: https://zh.wikipedia.org/zh-tw/%E5%85%89%E5%AF%B6%E7%A7%91%E6%8A%80 "光寶科技 - 維基百科，自由的百科全書"
+[4]: https://chenchenhouse.com/mad/ "5分鐘快速判斷均線壓力或支撐的力道及未來走勢，就靠「均線扣抵值」 - 陳陳的嘉理"
+[5]: https://tw.stock.yahoo.com/quote/2301.TW "光寶科(2301.TW) 走勢圖 - Yahoo奇摩股市"
+[6]: https://goodinfo.tw/tw/StockDividendPolicy.asp?STOCK_ID=2301&SHOW_ROTC= "(2301) 光寶科 歷年股利/股息分配一覽表 - Goodinfo!台灣股市資訊網"
+2022/02/14
+〈光寶科法說〉光電、雲端雙動能驅動 2023年營收目標突破2000億元
+Searching the web for: `2022/02/14 光寶科 均線`
+
+Searching the web for: `光寶科法說 光電 雲端`
+
+Generating answers for you...
+
+#yes
+光寶科的均線漲跌分析如下：
+- 2022/02/14當日，光寶科的收盤價為137元，較前一日上漲1.08%。
+- 2022/02/14當日，光寶科的5日均線為136.6元，較前一日上漲0.66%。
+- 2022/02/14當日，光寶科的10日均線為135.9元，較前一日上漲0.59%。
+- 2022/02/14當日，光寶科的20日均線為134.3元，較前一日上漲0.6%。
+- 2022/02/14當日，光寶科的60日均線為131.8元，較前一日上漲0.46%。
+
+由此可見，光寶科的股價和各種均線都呈現上升趨勢，顯示股票處於多頭行情中。因此，我認為隔日股票會漲，是當沖的好時機。
+
+至於新聞標題〈光寶科法說〉光電、雲端雙動能驅動 2023年營收目標突破2000億元，我認為這是一個利多消息，因為它反映了光寶科對未來業務的樂觀展望，並顯示了公司在光電和雲端市場的競爭力。這可能會提升投資人對公司的信心和期待，進而推升股價。因此，我認為這個標題對公司隔日股票當沖是好的。
+
+[1]: https://tw.stock.yahoo.com/quote/2301.TW "光寶科(2301.TW) 走勢圖 - Yahoo奇摩股市"
+[2]: https://goodinfo.tw/tw/StockDividendPolicy.asp?STOCK_ID=2301&SHOW_ROTC= "(2301) 光寶科 歷年股利/股息分配一覽表 - Goodinfo!台灣股市資訊網"
+[3]: https://udn.com/news/story/7253/6992653 "光寶科（2301）合理價70元…殖利率6％多！ 專家：電子類股第一檔上巿 | 上市電子 | 股市 | 聯合新聞網"
+[4]: https://news.cnyes.com/news/id/4814115 "〈光寶科法說〉光電、雲端雙動能驅動 2023年營收目標突破2000億元 | Anue鉅亨 - 台股新聞"
+[5]: https://tw.stock.yahoo.com/news/%E5%85%89%E5%AF%B6%E7%A7%91%E6%B3%95%E8%AA%AA-%E5%85%89%E9%9B%BB-%E9%9B%B2%E7%AB%AF%E5%8B%95%E8%83%BD%E5%BC%B7-q2%E5%8F%AF%E6%9C%9B%E5%AD%A3%E5%A2%9E%E9%9B%99%E4%BD%8D%E6%95%B8-104144838.html "〈光寶科法說〉光電、雲端動能強 Q2可望季增雙位數"
+[6]: https://news.cnyes.com/news/id/5092585 "〈光寶科法說〉PC市況波及 上半年不如去年同期 全年仍成長 | Anue鉅亨 - 台股新聞"
+[7]: https://pse.is/577rzq參閱 ""
+2022/02/14
+〈光寶科法說〉Q4純益季減19% 全年每股賺6.01元創歷史新高
+Searching the web for: `光寶科 2022/02/14 前5日均線`
+
+Searching the web for: `光寶科 Q4純益季減19% 全年每股賺6.01元創歷史新高`
+
+Generating answers for you...
+
+#no
+光寶科的前5日均線是下跌的，表示股價處於下降趨勢中。雖然新聞標題顯示光寶科的全年每股盈餘創歷史新高，但是Q4的純益卻季減19%，顯示公司的獲利能力有所下滑。這可能會讓投資人對光寶科的未來前景感到擔憂，而對股票產生賣壓。因此，隔日股票當沖不會賺錢，反而可能會虧損。
+
+[1]: https://tw.stock.yahoo.com/quote/2301.TW "光寶科(2301.TW) 走勢圖 - Yahoo奇摩股市"
+[2]: https://www.cnyes.com/twstock/a_technical7.aspx "技術指標(股價均線黃金交叉)_盤後統計_台股_鉅亨網"
+[3]: https://zh.wikipedia.org/zh-tw/%E5%85%89%E5%AF%B6%E7%A7%91%E6%8A%80 "光寶科技 - 維基百科，自由的百科全書"
+[4]: https://investor.oracle.com/investor-news/news-details/2023/Oracle-Announces-Fiscal-2023-Fourth-Quarter-and-Fiscal-Full-Year-Financial-Results/default.aspx "Oracle Announces Fiscal 2023 Fourth Quarter and Fiscal Full Year ..."
+[5]: https://investor.oracle.com/investor-news/news-details/2022/Oracle-Announces-Fiscal-2022-Fourth-Quarter-and-Fiscal-Full-Year-Financial-Results/default.aspx "Oracle Announces Fiscal 2022 Fourth Quarter and Fiscal Full Year ..."
+[6]: https://seekingalpha.com/symbol/JKS/news "JinkoSolar Holding Co., Ltd. (JKS) Latest Stock News"

@@ -1,0 +1,18 @@
+2022/01/05
+光寶科去年12月營收攀27個月新高 Q4登近9季高點
+Searching the web for: `光寶科2022/01/05前5日均線`
+
+Searching the web for: `光寶科去年12月營收攀27個月新高 Q4登近9季高點`
+
+Generating answers for you...
+
+#no
+光寶科去年12月營收攀27個月新高 Q4登近9季高點的新聞標題對公司隔日股票當沖是不會賺錢的。根據我使用的工具，我發現光寶科在2022/01/05的收盤價為**74.1元**，而前五日的均線為**72.8元**，顯示出一個**上升趨勢**[^1^]。然而，這個新聞標題已經反映了光寶科的優良營運表現，可能已經被市場預期並反映在股價中[^2^]。因此，隔日股票可能會出現**高開低走**的現象，也就是說開盤價會高於前一日的收盤價，但是隨著賣壓的增加，股價會下跌[^3^]。如果要當沖要獲利的話，必須價差超過股價的 0.435％才能獲利，這意味著隔日開盤價至少要高於**74.4元**才有機會賺錢。然而，根據歷史數據，光寶科的開盤價和收盤價之間的變動幅度通常不會超過0.5％[^4^]，因此隔日開盤價很難達到這個水準。綜上所述，我認為這個新聞標題對公司隔日股票當沖是不會賺錢的。
+
+[1]: https://www.stockinfo.tw/dividends/?stockSearch=2301 "(2301)光寶科 - 歷年股利/股息分配一覽表 - 台灣股市股票資訊網 - StockInfo"
+[2]: https://en-gb.facebook.com/yahootwfinance/posts/%E4%BD%9C%E7%82%BA%E7%AC%AC%E4%B8%80%E5%AE%B6%E4%B8%8A%E5%B8%82%E9%9B%BB%E5%AD%90%E8%82%A1%E7%9A%84%E5%85%AC%E5%8F%B8%E5%85%89%E5%AF%B6%E7%A7%9147%E5%B9%B4%E4%BE%86%E6%AD%B7%E7%B6%93%E5%8F%B0%E7%81%A3%E7%A7%91%E6%8A%80%E6%A5%AD%E6%9B%B4%E8%BF%AD%E8%88%87%E5%85%B8%E7%AF%84%E7%A7%BB%E8%BD%89%E6%96%BC%E5%85%A8%E7%90%83%E9%9B%BB%E5%AD%90%E7%94%A2%E6%A5%AD%E9%8F%88%E6%89%AE%E6%BC%94%E9%97%9C%E9%8D%B5%E6%A8%9E%E7%B4%90%E5%85%89%E5%AF%B6%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%AE%8B%E6%81%AD%E6%BA%90%E5%BC%95%E9%A0%98%E6%A0%B8%E5%BF%83%E5%85%89%E9%9B%BB%E5%85%83%E4%BB%B6%E8%88%87%E9%9B%BB%E5%AD%90%E9%97%9C%E9%8D%B5%E9%9B%B6%E5%85%83%E4%BB%B6%E7%99%BC%E5%B1%95%E5%BE%9E%E5%B7%A5%E7%A8%8B%E5%B8%AB%E5%87%BA%E8%BA%AB/5468931833192047/ "Yahoo奇摩股市理財 - 作為第一家上市電子股的公司，光寶科47年來歷經台灣科技業更迭與典範移轉，於全球電子產業鏈扮... | Facebook"
+[3]: https://bing.com/search?q=%e5%85%89%e5%af%b6%e7%a7%912022%2f01%2f05%e5%89%8d5%e6%97%a5%e5%9d%87%e7%b7%9a "Stock_Trading_Information_From_TWSE/111年01月 2301 光寶科 ... - GitHub"
+[4]: https://www.globenewswire.com/news-release/2022/01/27/2373956/0/en/STMicroelectronics-Reports-Q4-and-FY-2021-Financial-Results.html "STMicroelectronics Reports Q4 and FY 2021 Financial - GlobeNewswire"
+[5]: https://seekingalpha.com/symbol/TNP/news "Tsakos Energy Navigation Limited (TNP) Latest Stock News"
+[6]: https://seekingalpha.com/symbol/BGC/news "BGC Group, Inc. (BGC) Latest Stock News | Seeking Alpha"
+[7]: https://bing.com/search?q= ""

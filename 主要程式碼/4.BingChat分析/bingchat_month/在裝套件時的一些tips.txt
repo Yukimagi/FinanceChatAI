@@ -1,0 +1,11 @@
+請確保您執行這個指令的目錄中有一個有效的 .NET 專案。您可以嘗試以下步驟：
+
+打開包含您的 .NET 專案檔的目錄。
+使用終端機或命令提示字元導航到這個目錄。
+確保您在包含 .csproj 或 .fsproj 檔案的目錄下執行 dotnet add package 指令。
+例如，如果您的專案檔位於 C:\Users\USER\source\repos\bingchat_test\MyProject.csproj，您需要在 C:\Users\USER\source\repos\bingchat_test\ 目錄下執行指令：
+
+bash
+Copy code
+dotnet add package --prerelease BingChat
+請確保專案目錄的結構是正確的，並且您已經切換到正確的目錄中執行指令。如果您的專案目錄結構是正確的，但仍然遇到問題，請檢查一下是否存在任何其他可能導致這個錯誤的問題。

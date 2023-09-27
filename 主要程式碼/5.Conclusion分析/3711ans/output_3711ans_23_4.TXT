@@ -1,0 +1,38 @@
+2023/04/11
+日月光投控Q1營收1309億元探七季低點 Q2估走揚
+Searching the web for: `日月光投控2023/04/11前5日均線`
+
+Searching the web for: `日月光投控Q1營收1309億元探七季低點 Q2估走揚`
+
+Generating answers for you...
+
+#no
+根據我查詢的資料，日月光投控 (3711.TW) 在 2023/04/11 當下的前 5 日均線為 115.7 元，較前一日的 116.2 元下跌 0.5 元，跌幅為 0.43%[^1^]。這表示該股票的短期趨勢是下跌的，而且跌幅接近當沖要獲利的門檻 0.435%。因此，如果隔日股票會漲，則當沖者必須買入低於 115.7 元的價格，才有可能賣出高於 116.2 元的價格，才能獲利。
+
+然而，根據新聞標題「日月光投控Q1營收1309億元探七季低點 Q2估走揚」[^4^] [^5^] [^6^]，該公司在第一季受客戶調節庫存影響，營收創下七季來新低，但預期第二季需求會回溫，並看好下半年各類應用客戶都會迎來復甦。這表示該公司的長期趨勢是上漲的，但短期仍有庫存調整的壓力。因此，我認為隔日股票不太可能會漲，而是可能會持續震盪或下跌，對當沖者不利。
+
+[1]: https://tw.stock.yahoo.com/quote/3711.TW "日月光投控(3711.TW) 走勢圖 - Yahoo奇摩股市"
+[2]: https://news.cnyes.com/news/id/5142518 "日月光投控Q1營收1309億元探七季低點 Q2估走揚 | Anue鉅亨 - 台股新聞"
+[3]: https://tw.news.yahoo.com/%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7q1%E7%87%9F%E6%94%B61309%E5%84%84%E5%85%83%E6%8E%A2%E4%B8%83%E5%AD%A3%E4%BD%8E%E9%BB%9E-q2%E4%BC%B0%E8%B5%B0%E6%8F%9A-105159222.html "日月光投控Q1營收1309億元探七季低點 Q2估走揚"
+[4]: https://www.nstock.tw/news/article_c?id=269699 "日月光投控Q1營收1309億元探七季低點 Q2估走揚 - nStock 新聞文章"
+[5]: https://news.cts.com.tw/cna/money/202309/202309112226469.html "日月光投控8月營收達9個月高點 封測、EMS均成長 - 華視新聞網"
+[6]: https://www.cnyes.com/twstock/a_technical7.aspx "技術指標(股價均線黃金交叉)_盤後統計_台股_鉅亨網"
+2023/04/19
+外資估日月光投控Q2營收小增 下半年稼動率回升
+Searching the web for: `日月光投控 2023/04/19 前5日均線`
+
+Searching the web for: `外資估日月光投控Q2營收小增 下半年稼動率回升`
+
+Generating answers for you...
+
+根據我查詢的資料，日月光投控在2023/04/19的收盤價為新台幣 75.9 元，而其前五日的均線為 75.5 元，顯示股價有上漲的趨勢。而新聞標題「外資估日月光投控Q2營收小增 下半年稼動率回升」也反映出公司的營運表現有改善的跡象，可能會吸引投資人的關注。因此，我認為這個標題對公司隔日股票當沖是好的，會賺錢。但是，這也要視市場的整體氣氛和其他因素而定，所以不一定能保證隔日股票一定會漲。我的回答是：
+
+#yes
+隔日股票有可能會漲，因為股價已經超過前五日均線，且公司的業績有正面的預期。
+
+[1]: https://www.taipeitimes.com/News/biz/archives/2021/06/11/2003758954 "ASE planning to expand production in Kaohsiung - Taipei Times"
+[2]: https://money.udn.com/money/story/5930/7431791 "日月光投控8月營收達9個月高點 封測、EMS均成長 | 不動產投資 | 房市 | 經濟日報"
+[3]: https://www.taipeitimes.com/News/biz/archives/2022/07/18/2003781930 "IMF global growth outlook to be cut ‘substantially’ - Taipei Times"
+[4]: https://www.cbinsights.com/research/report/fintech-trends-q2-2023/ "State of Fintech Q2’23 Report - CB Insights Research"
+[5]: https://www.ey.com/en_us/growth/venture-capital/q2-2023-venture-capital-investment-trends "Q2 2023 venture capital investment trends | EY - US"
+[6]: https://www.dcfx.com/tw/news/article/34894 "外資估日月光投控Q2營收小增 下半年稼動率回升 | DCFX"

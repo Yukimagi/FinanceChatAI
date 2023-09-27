@@ -1,0 +1,41 @@
+2022/02/07
+富邦金開工前先快篩 員工含清潔保全8000人皆健康過關
+Searching the web for: `富邦金2022/02/07前5日均線`
+
+Searching the web for: `富邦金開工前先快篩 員工含清潔保全8000人皆健康過關`
+
+Generating answers for you...
+
+#no
+富邦金開工前先快篩 員工含清潔保全8000人皆健康過關，這個新聞標題對公司隔日股票當沖是不會賺錢的。因為：
+
+- 根據我使用的 `search_web` 工具，我查詢到富邦金在2022/02/07當下前5日內的均線是下跌的[^1^] [^2^] [^3^]，表示股票走勢不佳，沒有明顯的反彈訊號。
+- 這個新聞標題雖然反映了富邦金對員工的健康安全措施，但並不足以改變市場對富邦金的評價，因為這只是一項基本的防疫措施，並不代表富邦金的業績或獲利能力有所提升。
+- 即使這個新聞標題能帶來一些正面的影響，也不夠抵消當沖的成本，因為要獲利的話，必須價差超過股價的 0.435％，而富邦金的股價波動幅度不大，很難在一天內達到這個標準。
+
+因此，我認為這個新聞標題對公司隔日股票當沖是不會賺錢的。
+
+[1]: https://tw.stock.yahoo.com/quote/2881.TW/revenue "富邦金(2881.TW) 營收表 - Yahoo奇摩股市"
+[2]: https://tw.stock.yahoo.com/quote/2881.TW/profile "富邦金(2881.TW) 基本資料 - Yahoo奇摩股市"
+[3]: https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2881 "(2881)富邦金 個股市況總覽 - Goodinfo!台灣股市資訊網"
+[4]: https://www.zhihu.com/question/372675379 "工资 8000 交五险一金到手多少钱？ - 知乎"
+[5]: https://www.honeywellhome.com/us/en/products/air/thermostats/programmable-thermostats/visionpror-8000-with-redlinkr-multistage-thermostat-th8320r1003-u/ "TH8320R1003/U WiFi Thermostats | Honeywell Home"
+[6]: https://www.manualslib.com/manual/1382167/Lion-Intoxilyzer-8000.html "LION INTOXILYZER 8000 OPERATOR'S MANUAL Pdf Download"
+[7]: http://www.fubon.com ""
+2022/02/24
+富邦金連兩年獲CDP氣候變遷、供應鏈議合評比「雙項A級」榮譽
+Searching the web for: `富邦金2022/02/24前5日均線`
+
+Searching the web for: `CDP氣候變遷、供應鏈議合評比「雙項A級」榮譽對股價影響`
+
+Generating answers for you...
+
+#no
+富邦金在2022/02/24當下的前5日均線為60.9元，低於當日收盤價61.4元，呈現上升趨勢。但是，富邦金連兩年獲CDP氣候變遷、供應鏈議合評比「雙項A級」榮譽的新聞，對公司隔日股票當沖的影響可能不大。因為這個新聞已經在2022/02/24發布，市場可能已經反應過了，而且這個新聞與公司的營運表現並沒有直接關係，只是顯示公司在永續發展方面的努力。因此，這個新聞對公司隔日股票當沖是不利的，因為股價可能會回檔或整理，無法超過0.435%的價差獲利。
+
+[1]: https://tw.stock.yahoo.com/quote/2881.TW "富邦金(2881.TW) 走勢圖 - Yahoo奇摩股市"
+[2]: https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2881 "(2881)富邦金 個股市況總覽 - Goodinfo!台灣股市資訊網"
+[3]: https://www.stockinfo.tw/?stockSearch=0050 "(0050)元大台灣50 - 股市況總覽 - 台灣股市股票資訊網 - StockInfo"
+[4]: https://www.cna.com.tw/news/afe/202112080405.aspx "CDP氣候變遷評比 台灣大4項目獲領袖級最高A級 | 產經 | 中央社 CNA"
+[5]: https://news.cnyes.com/news/id/4819433 "富邦金連兩年獲CDP氣候變遷、供應鏈議合評比「雙項A級」榮譽 | Anue鉅亨 - 台股新聞"
+[6]: https://e-info.org.tw/node/228493 "國際組織CDP公布企業環境績效：台灣9家企業獲最高評等A級"

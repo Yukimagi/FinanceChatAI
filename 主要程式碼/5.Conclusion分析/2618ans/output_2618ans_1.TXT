@@ -1,0 +1,27 @@
+2022/01/06
+華航、長榮航近程航線空運運價喊漲 最多漲2成
+Searching the web for: `股票長榮航2022/01/01-2022/01/05均線`
+
+Searching the web for: `股票長榮航2022/01/06均線`
+
+Searching the web for: `華航、長榮航近程航線空運運價喊漲 最多漲2成`
+
+Generating answers for you...
+
+#unknown
+我無法根據您提供的資訊，判斷股票長榮航於2022/01/06前5日內均線為漲還是跌，因為我沒有查詢到相關的數據。我使用了`search_web`工具，但是沒有找到任何關於股票長榮航2022/01/01-2022/01/05均線的結果。我只找到了一些關於中華航空公司的票價產品和航班時刻表的資訊[^1^] [^2^]，但是這些資訊和您要求的分析主題無關。因此，我無法對以下新聞標題進行綜合分析，也無法回答隔日股票當沖是好還是壞。
+
+華航、長榮航近程航線空運運價喊漲 最多漲2成
+
+如果您能提供更多的相關數據或來源，我可能會有更好的回答。謝謝您的理解。
+
+[1]: https://emops.twse.com.tw/server-java/t05st01_e?TYPEK=sii&co_id=2330&year=2022&month=all&step=0&query=co&colorchg=1 "Historical Information - TWSE"
+[2]: https://stackoverflow.com/questions/72398603/sql-query-to-fetch-data-after-01-01-2022 "SQL Query to fetch data after 01-01-2022 - Stack Overflow"
+[3]: https://www.sec.gov/Archives/edgar/data/36966/000003696623000016/fhn-20221231.htm "fhn-20221231 - SEC.gov"
+[4]: https://www.exchangerates.org.uk/historical/find-exchange-rate-history-for-01_06_2022 "Exchange Rates History for 1 June 2022 (01/06/2022)"
+[5]: https://www.federalregister.gov/documents/2022/01/06 "Federal Register Document Issue for 2022-01-06"
+[6]: https://hu-hu.facebook.com/histock.fans/videos/%E5%97%A8%E6%8A%95%E8%B3%87%E6%9C%B1%E5%AE%B6%E6%B3%93%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90%E6%9E%97%E7%A9%8E%E8%B5%B0%E5%9C%96%E6%8A%95%E8%B3%87%E8%87%AA%E5%B7%B1%E5%AE%8C%E6%95%B4%E5%AD%B8%E7%BF%92%E5%AD%B8%E6%9C%83%E7%94%A8%E4%B8%80%E8%BC%A9%E5%AD%902022%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90%E5%9F%BA%E7%A4%8E%E7%8F%AD%E5%85%B1%E5%85%AB%E5%A0%82%E8%A9%B3%E7%B4%B0%E8%B3%87%E8%A8%8Ahttpsbitly3zf8rzz2022%E6%96%B0%E7%89%88%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90%E5%9F%BA%E7%A4%8E%E7%8F%AD%E8%A6%81%E9%96%8B%E7%8F%AD%E5%9B%89/415168450493495/ "#嗨投資#朱家泓技術分析#林穎走圖 投資自己，完整學習 學會用一輩子 2022技術分析基礎班(共八堂) 詳細資訊 https://bit ..."
+[7]: https://tw.stock.yahoo.com/quote/2610.TW "華航(2610.TW) 走勢圖 - Yahoo奇摩股市"
+[8]: https://www.china-airlines.com/tw/zh/booking/book-flights/fare-family "票價產品 Fare Family | 中華航空公司 - China Airlines"
+[9]: https://www.china-airlines.com/tw/zh/fly/flight-status/timetable "航班時刻表 | 中華航空公司 - China Airlines"
+[10]: https://bit.ly/3zf8rzZ ""

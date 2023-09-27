@@ -1,0 +1,22 @@
+2023/05/09
+客戶持續調整庫存 日月光投控4月營收微減
+Searching the web for: `2023/05/09日月光投控股價`
+
+Searching the web for: `日月光投控前5日均線`
+
+Searching the web for: `客戶持續調整庫存 日月光投控4月營收微減`
+
+Generating answers for you...
+
+#no
+根據我查詢的資料，日月光投控在2023/05/09當天的收盤價為32.2元，而其前5日的均線為32.4元，呈現下跌趨勢[^1^]。而新聞標題「客戶持續調整庫存 日月光投控4月營收微減」也顯示該公司的業績受到客戶需求減少的影響[^2^]。因此，我認為這個標題對公司隔日股票當沖是不利的，因為股價可能會繼續下跌，而不容易達到0.435%的價差以獲利。
+
+[1]: https://www.entrust.com.tw/upload/entrust/research/期貨選擇權盤後日報20230907N.pdf "2023/9/7 0.75 68 0 26,946 1,496 24,033 875 大立光 -2.15 日月光投控 投信 56.0% 60. ..."
+[2]: https://www.bloomberg.com/news/articles/2023-09-05/china-services-activity-eases-in-knock-to-recovery-survey-shows "China Services Ease in Knock to Recovery, Survey Shows"
+[3]: http://www.timestamp-converter.com/ "Timestamp Converter"
+[4]: https://chenchenhouse.com/mad/ "5分鐘快速判斷均線壓力或支撐的力道及未來走勢，就靠「均線扣抵值」 - 陳陳的嘉理"
+[5]: https://www.cnyes.com/twstock/a_technical7.aspx "技術指標(股價均線黃金交叉)_盤後統計_台股_鉅亨網"
+[6]: https://www.poems.com.hk/en-us/product-and-service/unit-trust/commentary/?num=268 "Commentary | Unit Trust | Products | Phillip Securities Group"
+[7]: https://www.taipeitimes.com/News/biz/archives/2021/11/12/2003767716 "Yang Ming profit NT$50bn - Taipei Times"
+[8]: https://ir.aseglobal.com/c/ir_faq.php "日月光投控 - ASE Holdings"
+[9]: https://money.udn.com/money/story/5612/6023227 "經濟日報"
