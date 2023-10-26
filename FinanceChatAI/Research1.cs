@@ -240,61 +240,69 @@ namespace FinanceChatAI
                     textBox1.AppendText($"Date: {record["date"]}, Title: {record["title"]}\n" + Environment.NewLine);
                 }
             }
-            string cookieFilePath = "bing_cookies_myaccount.json";
-            var client = new BingChatClient(new BingChatClientOptions
-            {
-                //如果你遇到可能不行一直問問題的情況，就需要連上cookie(cookie可能會於跳掉網頁後更新)
-                //設置自己的 Cookie
-                //您可以設置自己的 Cookie，以與 BingChat 伺服器互動，而不是隨機生成一個。
-                //要獲取 Cookie，您可以前往 www.bing.com，登錄一個有權限的帳戶，然後打開開發人員工具（F12）> 應用程序標籤 > 存儲 > Cookies，在名為 "_U" 的 Cookie 中查找並複製其值。然後將其傳遞給 BingChatClientOptions 的構造函數。
-
-                //CookieU = "1tYxbaSS8z-IlvNPYq_6q5B5qGLDX0s-D9Wiv45lfbuLCVazbtsK6N8lm-ABNU752-xG1F0L9OmCItsuW76KnBUNXKk4LmZLxk720nQQAnHcGv7SNCmPcW8Bso1v47VXI4_QVZyO1wQIvpWYlum8xUQ4fuFwgg2pzr_m82kKUYA8AdkW3fJ9kNGIo9ZNzLIELc33UHIdzZC58-9lV0nOTEDoP7-6MOjuAaWYJ2Z8EBZM",
-                // Tone used for conversation
-                Tone = BingChatTone.Creative,
-                CookieFilePath = cookieFilePath
-                //CookieKievRPSSecAuth = "FABiBBRaTOJILtFsMkpLVWSG6AN6C/svRwNmAAAEgAAACK8zGycxlLSLIAQeaSBcLEynl9RchnVMDkPGkHr1OPttubdB3kSey7ApMwV9zgBJOFXhah9KNOUFEjvulHFUqnMvzLg14yKiT3ydkg6T50a0fgdbNZlcQvBrc7vdnD3XBwmeZmAHbl75mSSD7H9Au0awEaWfjgKOuMhRqiK4HpFcYCt4YTWDeH0J9CppvW7LuoqyOYVu7BlR/8LJYdJOGobA790nl2DA0aaaB98TQ/NiVIX/z2AgIlkDhzThide0aqvTLGLVVWim6Up/NybYe6qvwcFJ8kGQou0tHtwl0FP5TqZVvr3qBT5MUR3v4om1LcZ1clDtbnJgGz/l3BeCaYSlMYOIF+d7FRWerVMyift/55TOQS11XcYIizsl8M2ePXmve4mknA1mTVbGkADrXZe8V5yYT7cCq1dsU3wak4giCa+Mj/sHBPXfGUmueh3d4AZo0+rbRF4zyJDhQhkrbJ67TB9ZOWo3E4vUVq11LRZvE0dimbk9ONGLpUo1eAW2WwGE8bwQ05y5OnBtwaJagJ4QoJNOYT3wFIazxlU5dz9Ag/DTwNoqhLimMcGR+e/0sHYXVdKo4PYf9m8ISkfcXwceNJykQvuapCKFq7WeyiFRCD+MxXkiW//Y6HSVl1Uii2kz09eX+vl+O7oI6WmZfH+uC4MdJTsG04swQnmejfu6ANdVF8IqjPVW5BkNNLNKqlwbpNocKrLcXficvMFZTp548OJKijOfoFLong9uJ8eIv3bsfL9U4+eZBw+VH1Lvih08J7A5DlEXSp9YQIzRBTf10H8nAd+sM7mX8jJVoO3/clHiA6q4/5z2btXTDb9EWtBbsTajkC+kkDvEUUDlkB7jD0PUNTlU5SlpbqLQAySULLIiOr1WtOWU/GfmrLyFTdmyvvrANVLRch+cZVd7d5VV/PfcL8efZGoVru3sIKSqZVOr0W64fxo4+Tw2H2fcI8Gi9CcOfWz69DshlLRJFyNj+Dvx6S67Rca8wukhpuFtxCey0nB4w512MX4vJ5mNxLQPkHTvCSMfXG3WnzBA3duVuaHJtE0zRuM+TZ4QChhDIUZoewW3C+lgcSdVYd7vYgDWP+r9XE1D5Tv+Ela4xAxfEhPRxkcl4PsMNJLuN43Qb+3S6Dv5daKocEuT/vNzNQkhwfRqp+XjJQDgwgBTJLltMeaPgM7+vH63s9qxMa6O+4b6XL/mKh/Vo4yDpBDSaxpeFN2do2odJyviaNWQThTDvbebbyaWDmnHsNj7qDS8q8uMDq6AcUziaFUaF4Gt1nsnqwnbh8S+mguz3gcFyR26USbHxjBK3zRv6GSSD9Rf0q3zP6u98Chd9CqHF/XW+jwbXV/AbUaCgSHEPvkIk5W+5rT8pYtoCIBYcmJQm7tKI61eQPUrkakNwLsISX/7DWK4t2dXzhIg0BYUAEsFP4wWc35d7no1byYUGgxBc12Z",
-            });
-            //驗證captcha
-            Process.Start(new ProcessStartInfo("cmd", $"/c start https://www.bing.com/turing/captcha/challenge") { CreateNoWindow = true });
-            Thread.Sleep(1000);
+            //-------------主要修改區--------------------------------------------------------
             int i = 0;
-            //string[] t = { "年底確定來不及！台積電中科2奈米廠用地延至明年交地" , "慘？市場傳三度調降財測 台積電急重訊澄清" };
             string[] answer = new string[num];
             foreach (var record in records)
             {
-                //Create a conversation, so we can continue chatting in the same context.
-                //var conversation = await client.CreateConversation();
+                //string keyword2 = keyword;
+                string pythonScriptPath = "BingChat.py";
+                //請找自己的python.exe路徑貼上
+                string pythonInterpreter = "C:\\Users\\USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe";
+                //請寫入你的bingchat.json路徑，注意格式(python注重)
+                //D:\Downloads\FinanceChatAI - 複製\FinanceChatAI\bin\Debug\net6.0-windows
+                //string cookiepath = "D:/Downloads/FinanceChatAI - 複製/FinanceChatAI/bin/Debug/net6.0-windows/bingchat.json";
+                string cookiepath = "bingchat.json";
 
-                //var firstMessage = "請你先查詢股票" + keyword[1] + "於"+ record["date"] + "前5日內均線為漲還是跌?";
-                //answer[i] = await conversation.AskAsync(firstMessage);
-                //Console.WriteLine($"First answer: {answer[i]}");
+                var message = "請您拿" + record["date"] + "當下5日內" + keyword2 + "的均線漲跌進行分析為漲還是跌，接著對以下新聞標題與其5日均線之漲跌經過綜合分析，並請考慮到當沖要獲利的話，必須價差超過股價的 0.435％才能獲利，那麼這個標題對公司隔日股票當沖是好(會賺錢)還是壞(不會賺錢)，接著請注意回答重點是:如果隔日股票會漲(會賺錢)請只回答#yes，而如果隔日股票會跌(不會賺錢)則只回答#no，如果不確定則只回答#unknown，請盡可能的不要回答#unknown，然後於下一行用簡短的句子進行詳細說明， 而以下為要分析的新聞標題:" + record["title"];
 
-                //await Task.Delay(TimeSpan.FromSeconds(1));
 
-                //假設你是一位財務專家而且您是一位具有股票推薦經驗的金融專家，如果以下新聞標題是好消息請只回答#yes，而如果是壞消息則只回答#no，如果不確定則只回答#unknown，然後於下一行用簡短的句子進行詳細說明，這個標題對公司股價是好還是壞呢? 而以下為要分析的新聞標題   
-                //"請您拿" + record["date"] + "當下前5日內台積電的均線漲跌進行分析為漲還是跌，接著對以下新聞標題與其5日均線之漲跌經過綜合分析，並請考慮到當沖要獲利的話，必須價差至少超過股價的 0.15％才能獲利，那麼這個標題對公司隔日股票當沖是好(會賺錢)還是壞(不會賺錢)，接著請注意回答重點是:如果隔日股票會漲(會賺錢)請只回答#yes，而如果隔日股票會跌(不會賺錢)則只回答#no，如果不確定則只回答#unknown，請盡可能的不要回答#unknown，然後於下一行用簡短的句子進行詳細說明， 而以下為要分析的新聞標題:" + record["title"];
-                var secondMessage = "請您拿" + record["date"] + "當下5日內" + keyword2 + "的均線漲跌進行分析為漲還是跌，接著對以下新聞標題與其5日均線之漲跌經過綜合分析，並請考慮到當沖要獲利的話，必須價差超過股價的 0.435％才能獲利，那麼這個標題對公司隔日股票當沖是好(會賺錢)還是壞(不會賺錢)，接著請注意回答重點是:如果隔日股票會漲(會賺錢)請只回答#yes，而如果隔日股票會跌(不會賺錢)則只回答#no，如果不確定則只回答#unknown，請盡可能的不要回答#unknown，然後於下一行用簡短的句子進行詳細說明， 而以下為要分析的新聞標題:" + record["title"];
+                ProcessStartInfo psi = new ProcessStartInfo();
+                psi.FileName = pythonInterpreter;
+                psi.Arguments = $"{pythonScriptPath} \"{cookiepath}\" \"{message}\""; //傳參數給python   
+                psi.UseShellExecute = false;
+                psi.RedirectStandardOutput = true; // 捕獲輸出
+                psi.CreateNoWindow = true;
 
-                answer[i] = await client.AskAsync(secondMessage);
 
-                textBox1.AppendText($"answer: {answer[i]}\n" + Environment.NewLine + Environment.NewLine);
-
-                string pattern = @"(#unknown|#no|#yes)";
-
-                MatchCollection matches = Regex.Matches(answer[i], pattern);
-
-                foreach (Match match in matches)
+                using (Process process = new Process())
                 {
-                    string keywordText = match.Value;
-                    // 寫入 CSV 資料行
-                    using (StreamWriter writer = new StreamWriter(stock + "ans" + "/" + stock + "ans_" + month + ".csv", true, Encoding.UTF8)) // 第二個參數為 true，表示追加模式
+                    process.StartInfo = psi;
+                    process.Start();
+
+
+                    process.WaitForExit();
+
+                    if (process.ExitCode == 0)
                     {
-                        writer.WriteLine(record["date"] + "," + record["title"] + "," + keywordText);
+                        answer[i] = process.StandardOutput.ReadToEnd();//讀所有python輸出
+                        textBox1.AppendText($"answer: {answer[i]}\n" + Environment.NewLine + Environment.NewLine);
+                        //Console.WriteLine($"Answer:\n {answer[i]}");
+
+                        string pattern = @"(#unknown|#no|#yes)";
+
+                        MatchCollection matches = Regex.Matches(answer[i], pattern);
+
+                        foreach (Match match in matches)
+                        {
+                            string keywordText = match.Value;
+                            // 寫入 CSV 資料行
+                            using (StreamWriter writer = new StreamWriter(stock + "ans" + "/" + stock + "ans_" + month + ".csv", true, Encoding.UTF8)) // 第二個參數為 true，表示追加模式 // 需要更動的地方
+                            {
+                                writer.WriteLine(record["date"] + "," + record["title"] + "," + keywordText);
+                            }
+                        }
+
+                        i++;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Python script execution failed.");
                     }
                 }
 
-                i++;
             }
+            //-------------主要修改區--------------------------------------------------------
 
             // Create an instance of StreamWriter to write text to a file.
             // The using statement also closes the StreamWriter.
